@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>robot control panel</title>
+<link rel="stylesheet" type="text/css" href="control panel.css">
+
+	<script type="text/javascript" src="control panel.js"></script>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+</head>
+<body style="background-image: linear-gradient(to left, #535782,#2C3E50 );
+">
+
+<form id="main" action="control panel.php" method="POST">
+	<h1>لوحة التحكم بالذراع الآلية</h1>
+
+<table>
+  <tr>
+ 	<td> </td>
+    <td><button type="submit" id="Forward" name="forward" class="grad">Forward</button></td>
+  </tr>
+  <tr>
+  	<td><button type="submit" id="left" name="left" class="grad">Left</button></td>
+    <td><button type="submit" id="stop" name="stop" class="grad">Stop</button></td>
+    <td><button type="submit" id="right" name="right" class="grad">Right</button>
+</td>
+  </tr>
+  <tr>
+  	<td></td>
+    <td><button type="submit" id="backward" name="backward" class="grad">Backward</button></td>
+     	<td> </td>
+
+  </tr>
+ 
+</table>
+
+
+
+</form>
+
+
+	<img id="design" src="background-copy.png"  width="490px" height="317px" >
+	<img id="arm" src="arm.png"  width="200" height="300" >
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "5764cefd-43ec-4e9b-b168-ad721b039d12", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "482441b1-ec11-4c97-a02f-7c27f4707a17", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>

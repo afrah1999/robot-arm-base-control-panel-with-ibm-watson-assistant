@@ -1,0 +1,63 @@
+
+	
+.grad{
+ background-color:white;
+ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+ border: none;
+ border-radius: 16px;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+  width: 120px;
+  height: 60px;
+  margin: 5px;
+
+		}
+			
+
+
+#main{
+width: 500px;
+height: 500px;
+padding: 6px;
+position: relative;
+margin-left: 80px;
+margin-top: 60px;
+
+}
+
+
+h1{
+	font-family: playfair display;
+	font-family: regular;
+	font-size: 26px;
+	color: #FEFEFE;
+	letter-spacing: 52;
+	
+	margin-bottom: 90px;
+margin-left: 90px;
+}
+#design{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width:965/2px;
+height: 100%;
+
+}
+#arm
+{
+	position: absolute;
+	 bottom: 0;
+  right: 0;
+  margin-right: 100px;
+  margin-bottom: 160px;
+  width: 206px;
+height: 268px;
+}
+
+
+
